@@ -1,0 +1,53 @@
+# Struktur folder dan file proyek reactjs
+
+```
+- public
+- src
+  - assets
+    - images
+    - icons
+  - components
+    - Button
+      + Button.jsx
+      + buttonUtils.js
+      + button.test.jsx
+    - Input
+      - TextInput
+        + TextInput.jsx
+      - SelectInput
+        + SelectInput.jsx
+  - layouts
+    - Authlayout
+      + AuthLayout.jsx
+      + authLayoutUtils.js
+      + authLayout.test.js
+  - pages
+    - Dashboard
+      + index.jsx
+      + Template.jsx
+    - User
+      - Partials
+        - TableUser
+          + TableUser.jsx
+        - FormFilterPeriodUser
+          + FormFilterPeriodUser.jsx
+        - FormSearchUser
+          + FormSearchUser.jsx
+        - FormFilterStatusUser
+          + FormFilterStatusUser.jsx
+      + index.jsx
+      + Template.jsx
+  - redux
+    - reducers
+      + userReducers.js
+    + store.js
+  - services
+    + userService.js
+  - styles
+    + globals.scss
+  - themes
+    + darkTheme.js
+    + lightTheme.js
+  - utils
+    + FormatTypeUtils.js
+```
